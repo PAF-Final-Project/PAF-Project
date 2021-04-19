@@ -37,6 +37,7 @@ public String insertProduct
 return output;
 }
 
+
 @PUT
 @Path("/")
 @Consumes(MediaType.APPLICATION_JSON)

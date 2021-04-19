@@ -85,6 +85,7 @@ public String readProducts()
  + "<input name='productID' type='hidden' value='" + productID
  + "'>" + "</form></td></tr>";
  }
+ 
  con.close();
  // Complete the html table
  output += "</table>";
