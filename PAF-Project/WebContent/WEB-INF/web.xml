@@ -17,6 +17,13 @@
   
   
   
+  
+  <servlet-mapping>
+ 		<servlet-name>Jersey Web Application</servlet-name>
+ 		<url-pattern>/BuyerService/*</url-pattern>
+	</servlet-mapping>
+  
+  
   <display-name>FundRequest</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
