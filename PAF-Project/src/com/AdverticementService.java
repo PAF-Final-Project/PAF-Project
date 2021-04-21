@@ -22,6 +22,7 @@ public String readAdverticement()
 {
 return AddverticementObject.readAdverticement();
 }
+
 @POST
 @Path("/")
 @Consumes(MediaType.APPLICATION_FORM_URLENCODED)

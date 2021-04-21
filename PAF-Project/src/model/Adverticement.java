@@ -13,6 +13,7 @@ public class Adverticement {
 	e.printStackTrace();}
 	return con;
 	}
+	
 
 	public String insertAdverticement(String id, String type, String title, String description, byte addImg){
 	String output = "";
